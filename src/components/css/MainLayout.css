@@ -1,0 +1,21 @@
+.outer-container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.main-container {
+  position: relative;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.main-container::-webkit-scrollbar {
+  /* width: 8px;
+  background-color: #5b5441; */
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccbb8e;
+}
